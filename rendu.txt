@@ -1,0 +1,15 @@
+jalon4
+
+Pour ce projet, j'ai fini tous les jalons, tous les fichier sont vérifiés par valgrind, pas de erreurs mémoire et pointeurs non libérer.
+
+Et dans jalon 2 et jalon 3,quand on lance le client, il va demander à l'utilisateur de lui donner son nickname, si l'utilisateur ne donne pas, il va toujours lui demander son nickname.
+
+Dans le fichier msg_struct.h, j'ai rajouté les types de message : 
+
+ERREUR_NICKNAME_NEW,	
+SERVER,
+ERREUR,
+ERREUR_FIND_SALON,
+ERREUR_CREATE_SALONjuste pour distinguer les messages envoyés par serveur.
+
+Merci de votre attention!
